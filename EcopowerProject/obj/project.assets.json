@@ -11608,11 +11608,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\itstudent\\Desktop\\EcopowerProject\\EcopowerProject\\EcopowerProject\\EcopowerProject.csproj",
+      "projectUniqueName": "K:\\CMPG-323-Project-2---30332338\\EcopowerProject\\EcopowerProject.csproj",
       "projectName": "EcopowerProject",
-      "projectPath": "C:\\Users\\itstudent\\Desktop\\EcopowerProject\\EcopowerProject\\EcopowerProject\\EcopowerProject.csproj",
+      "projectPath": "K:\\CMPG-323-Project-2---30332338\\EcopowerProject\\EcopowerProject.csproj",
       "packagesPath": "C:\\Users\\itstudent\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\itstudent\\Desktop\\EcopowerProject\\EcopowerProject\\EcopowerProject\\obj\\",
+      "outputPath": "K:\\CMPG-323-Project-2---30332338\\EcopowerProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\itstudent\\AppData\\Roaming\\NuGet\\NuGet.Config",
