@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using EcopowerProject.Models;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace EcopowerProject.Controllers
 {
@@ -133,5 +135,6 @@ namespace EcopowerProject.Controllers
         {
             return (_context.Customers?.Any(e => e.CustomerId == id)).GetValueOrDefault();
         }
+        private readonly ILogger<CustomersController> _logger;
     }
 }
