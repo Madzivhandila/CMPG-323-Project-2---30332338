@@ -352,3 +352,13 @@ C:\Users\itstudent\Desktop\EcopowerProject\EcopowerProject\EcopowerProject\obj\D
 C:\Users\itstudent\Desktop\EcopowerProject\EcopowerProject\EcopowerProject\obj\Debug\net6.0\EcopowerProject.pdb
 C:\Users\itstudent\Desktop\EcopowerProject\EcopowerProject\EcopowerProject\obj\Debug\net6.0\EcopowerProject.genruntimeconfig.cache
 C:\Users\itstudent\Desktop\EcopowerProject\EcopowerProject\EcopowerProject\obj\Debug\net6.0\ref\EcopowerProject.dll
+K:\CMPG-323-Project-2---30332338\EcopowerProject\obj\Debug\net6.0\EcopowerProject.csproj.AssemblyReference.cache
+K:\CMPG-323-Project-2---30332338\EcopowerProject\obj\Debug\net6.0\EcopowerProject.GeneratedMSBuildEditorConfig.editorconfig
+K:\CMPG-323-Project-2---30332338\EcopowerProject\obj\Debug\net6.0\EcopowerProject.AssemblyInfoInputs.cache
+K:\CMPG-323-Project-2---30332338\EcopowerProject\obj\Debug\net6.0\EcopowerProject.AssemblyInfo.cs
+K:\CMPG-323-Project-2---30332338\EcopowerProject\obj\Debug\net6.0\EcopowerProject.csproj.CoreCompileInputs.cache
+K:\CMPG-323-Project-2---30332338\EcopowerProject\obj\Debug\net6.0\EcopowerProject.MvcApplicationPartsAssemblyInfo.cs
+K:\CMPG-323-Project-2---30332338\EcopowerProject\obj\Debug\net6.0\EcopowerProject.MvcApplicationPartsAssemblyInfo.cache
+K:\CMPG-323-Project-2---30332338\EcopowerProject\obj\Debug\net6.0\EcopowerProject.dll
+K:\CMPG-323-Project-2---30332338\EcopowerProject\obj\Debug\net6.0\refint\EcopowerProject.dll
+K:\CMPG-323-Project-2---30332338\EcopowerProject\obj\Debug\net6.0\EcopowerProject.pdb
