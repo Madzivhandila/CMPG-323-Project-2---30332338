@@ -71,3 +71,6 @@ Ensure that proper authentication is set up to restrict access to the API. Avoid
 1. Create an API service connected to an F1 tier (free) service plan.
 2. Publish your API to the service hosted on Azure.
 3. Ensure the API is secure and accessible.
+
+************************************************************************************************************
+### ![north_8](https://github.com/Madzivhandila/CMPG-323-Project-2---30332338/assets/75025282/11a9aab0-917c-4441-8420-57c7d1b8e75c)
