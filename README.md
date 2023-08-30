@@ -4,18 +4,70 @@ This README gives an outline of the EcoPower Coordinations venture, its establis
 
 # EcoPower Logistics Solution Project
 ************************************************************************************************************
-EcoPower Coordinations specializes in giving a comprehensive run of parts and components for sun based vitality frameworks, as well as overseeing and optimizing coordinations forms. This README gives an diagram of the venture, establishment enlightening, usefulness subtle elements, and extend close-out steps.
+EcoPower Coordinations specializes in giving a comprehensive run of parts and components for sun based vitality frameworks, as well as overseeing and optimizing coordinations
+forms. This README gives an diagram of the venture, establishment enlightening, usefulness subtle elements, and extend close-out steps.
 
-## Table of Contents
+# Table of Contents
 ************************************************************************************************************
-1. Description
-2. Installation
-3. Functionality
-4. Security
-5. Web API Cloud Hosting
+### Description
+### Installation
+### Functionality
+### Security
+### Web API Cloud Hosting
 
+# Description
+************************************************************************************************************
+EcoPower Coordinations offers a wide assortment of items basic for sun oriented vitality frameworks, counting sun oriented boards, inverters, batteries, and observing
+frameworks. The company moreover exceeds expectations in coordinations administration, guaranteeing secure warehousing, transportation, and conveyance of products all
+inclusive.
+Installation
 
+# Install required NuGet packages:
+************************************************************************************************************
+### Microsoft.EntityFrameworkCore
+### Microsoft.EntityFrameworkCore.SqlServer
+### Microsoft.EntityFrameworkCore.Design
+### Microsoft.EntityFrameworkCore.Tools
 
+# Configure the database
+************************************************************************************************************
+I Created a SQL Server on Azure with a secure service account.Then create database on the Azure SQL Server after that I run the provided SQL script to create relevant tables.
 
+# Functionality
+************************************************************************************************************
 
+## The API project provides the following functionalities:
 
+### Customer Management
+  1. GET: Retrieve all customers.
+  2. GET: Retrieve a specific customer by ID.
+  3. POST: Create a new customer entry.
+  4. PATCH: Update an existing customer entry.
+  5. DELETE: Delete a customer entry.
+
+### Order Management
+  1. GET: Retrieve all orders.
+  2. GET: Retrieve a specific order by ID.
+  3. POST: Create a new order entry.
+  4. PATCH: Update an existing order entry.
+  5. DELETE: Delete an order entry.
+  6. GET: Retrieve all orders for a specific customer.
+
+### Product Management
+
+- GET: Retrieve all products.
+- GET: Retrieve a specific product by ID.
+- POST: Create a new product entry.
+- PATCH: Update an existing product entry.
+- DELETE: Delete a product entry.
+- GET: Retrieve all products for a specific order.
+
+# Security
+************************************************************************************************************
+Ensure that proper authentication is set up to restrict access to the API. Avoid storing credentials on GitHub to maintain security.
+
+## Web API Cloud Hosting
+
+1. Create an API service connected to an F1 tier (free) service plan.
+2. Publish your API to the service hosted on Azure.
+3. Ensure the API is secure and accessible.
