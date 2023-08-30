@@ -73,4 +73,4 @@ Ensure that proper authentication is set up to restrict access to the API. Avoid
 3. Ensure the API is secure and accessible.
 
 ************************************************************************************************************
-### ![north_8](https://github.com/Madzivhandila/CMPG-323-Project-2---30332338/assets/75025282/11a9aab0-917c-4441-8420-57c7d1b8e75c)
+### ![1539083382-35-north-west-university-potchefstroom-campus](https://github.com/Madzivhandila/CMPG-323-Project-2---30332338/assets/75025282/6fb985ba-bd32-4ea5-91cf-cfc8151582a0)
