@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bq0pyTTgYI/KOHxbftezVmvfzPyaRfxJ+ZUVeCTTGrEBZJHRxEm+jvOZte0xWmxtoNN6MgwBBT4shdgw4zTNZg==",
+  "dgSpecHash": "zr5XnQ2gr6FyAi3qMNyQ+jKgbbrP8T/hYMZNi3xCdpr+1Xph7UvbmVSAY20PPf8f0WsruDtc3TU5XROaRHHTDw==",
   "success": true,
-  "projectFilePath": "K:\\CMPG-323-Project-2---30332338\\EcopowerProject\\EcopowerProject.csproj",
+  "projectFilePath": "C:\\Users\\itstudent\\Desktop\\CMPG-323-Project-2---30332338\\EcopowerProject\\EcopowerProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\itstudent\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\itstudent\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
