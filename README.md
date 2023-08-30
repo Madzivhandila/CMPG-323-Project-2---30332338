@@ -1,4 +1,5 @@
 # CMPG-323-Project-2---30332338
+************************************************************************************************************
 ![Untitled](https://github.com/Madzivhandila/CMPG-323-Project-2---30332338/assets/75025282/7b84067e-d440-4e70-860f-770040529a93)
 ************************************************************************************************************
 This README gives an outline of the EcoPower Coordinations venture, its establishment, usefulness, security measures, cloud facilitating, and extend documentation. For point by point execution and code specifics, allude to the extend store and related records.
