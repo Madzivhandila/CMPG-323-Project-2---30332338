@@ -24,7 +24,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("name=ConnectionStrings:ConnStr"));
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("name=Server=tcp:ecopowersolutions1.database.windows.net,1433;Initial Catalog=ecopower;Persist Security Info=False;User ID=madzivhandila2@gamil.com@ecopowersolutions1;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;:ConnStr"));
 
 // For Identity  
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
