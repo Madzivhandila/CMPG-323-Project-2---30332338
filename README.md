@@ -89,4 +89,8 @@ Ensure that proper authentication is set up to restrict access to the API. Avoid
 1. https://learn.microsoft.com/en-us/training/achievements/learn.build-web-api-net-core.badge?username=TendaniArchiboldMadzivhandila30332-4920&sharingId=DDC01042CCB18A9C
 2. https://learn.microsoft.com/en-us/training/achievements/learn.wwl.explore-api-management.badge?username=TendaniArchiboldMadzivhandila30332-4920&sharingId=DDC01042CCB18A9C
 ************************************************************************************************************
+# API LINK
+************************************************************************************************************
+https://localhost:7018/swagger/index.html
+************************************************************************************************************
 ### ![1539083382-35-north-west-university-potchefstroom-campus](https://github.com/Madzivhandila/CMPG-323-Project-2---30332338/assets/75025282/6fb985ba-bd32-4ea5-91cf-cfc8151582a0)
