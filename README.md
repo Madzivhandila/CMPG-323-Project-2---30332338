@@ -74,5 +74,11 @@ Ensure that proper authentication is set up to restrict access to the API. Avoid
 2. Publish your API to the service hosted on Azure.
 3. Ensure the API is secure and accessible.
 
+   
+# harvard referencing
+1. Azure DEVOPS tutorials by mr. Maha sir (2023) YouTube. Available at: https://www.youtube.com/watch?v=_v6wKDcAo_Q (Accessed: 31 August 2023).
+2. APIs for Beginners 2023 - how to use an API (full course / tutorial) (2023) YouTube. Available at: https://www.youtube.com/watch?v=WXsD0ZgxjRw (Accessed: 31 August 2023).
+3. 24 Aug CMPG323 Weekly Virtual class API security (2023) YouTube. Available at: https://www.youtube.com/watch?v=tg_0o6U_J-w (Accessed: 31 August 2023). 
+
 ************************************************************************************************************
 ### ![1539083382-35-north-west-university-potchefstroom-campus](https://github.com/Madzivhandila/CMPG-323-Project-2---30332338/assets/75025282/6fb985ba-bd32-4ea5-91cf-cfc8151582a0)
