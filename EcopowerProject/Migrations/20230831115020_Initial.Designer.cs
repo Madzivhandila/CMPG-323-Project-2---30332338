@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EcopowerProject.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230831112214_Initial")]
+    [Migration("20230831115020_Initial")]
     partial class Initial
     {
         /// <inheritdoc />

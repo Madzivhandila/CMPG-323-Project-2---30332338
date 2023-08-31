@@ -1,4 +1,3 @@
-using EcopowerProject.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -15,7 +14,8 @@ using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Swashbuckle.AspNetCore.SwaggerUI;
 using System.Linq;
-
+using EcopowerProject.Authentication;
+using EcopowerProject.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,7 +23,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("name=Server=tcp:ecopowerserv.database.windows.net,1433;Initial Catalog=ecopowerdb2;Persist Security Info=False;User ID=madzivhandila;Password=Archie@19;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;:ConnStr"));
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
+builder.Services.AddDbContext<EcoPowerSolutionsContext>(options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
 
 // For Identity  
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
@@ -97,6 +98,7 @@ builder.Services.AddSwaggerGen(c =>
     };
     c.AddSecurityRequirement(securityRequirement);
 });
+
 
 
 
