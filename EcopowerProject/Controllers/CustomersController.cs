@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace EcopowerProject.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CustomersController : ControllerBase
