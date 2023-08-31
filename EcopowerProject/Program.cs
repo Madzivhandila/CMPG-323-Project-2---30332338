@@ -1,10 +1,9 @@
-using EcopowerProject.Models;
-using Microsoft.EntityFrameworkCore;
 using EcopowerProject.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -16,7 +15,9 @@ using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Swashbuckle.AspNetCore.SwaggerUI;
 using System.Linq;
-
+using EcopowerProject.Models;
+using EcopowerProject.Authentication;
+using EcopowerProject.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,7 +25,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("name=Server=tcp:ecopowersolutions1.database.windows.net,1433;Initial Catalog=ecopower;Persist Security Info=False;User ID=madzivhandila2@gamil.com@ecopowersolutions1;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;:ConnStr"));
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("name=Server=tcp:ecopowerserv.database.windows.net,1433;Initial Catalog=ecopowerdb2;Persist Security Info=False;User ID=madzivhandila;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;:DefaultConnection"));
+builder.Services.AddDbContext<EcoPowerSolutionsContext>(options => options.UseSqlServer("name=Server=tcp:ecopowerserv.database.windows.net,1433;Initial Catalog=ecopowerdb2;Persist Security Info=False;User ID=madzivhandila;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;:DefaultConnection"));
 
 // For Identity  
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
@@ -101,6 +103,7 @@ builder.Services.AddSwaggerGen(c =>
 
 
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -122,4 +125,3 @@ IWebHostEnvironment environment = app.Environment;
 app.MapControllers();
 
 app.Run();
-
