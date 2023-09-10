@@ -92,5 +92,9 @@ Ensure that proper authentication is set up to restrict access to the API. Avoid
 # API LINK
 ************************************************************************************************************
 https://localhost:7018/swagger/index.html
+
+https://ecopowerproject20230831152434.azurewebsites.net/
+
+https://ecopowerproject20230831152434.azurewebsites.net/index.html
 ************************************************************************************************************
 ### ![1539083382-35-north-west-university-potchefstroom-campus](https://github.com/Madzivhandila/CMPG-323-Project-2---30332338/assets/75025282/6fb985ba-bd32-4ea5-91cf-cfc8151582a0)
